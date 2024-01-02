@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 20px; 
+}
+
+#home {
+    background-color: #f8f8f8; 
+}
+
+.home-section {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.home-section h1 {
+    margin-top: 35%;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.designation {
+    font-size: 1.5em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+#about {
+    background-color: #e0e0e0;
+}
+
+#experience {
+    background-color: #c0c0c0; 
+}
+
+#projects {
+    background-color: #a0a0a0; 
+}
+
+#activities {
+    background-color: #808080; 
+}
+
+#contact {
+    background-color: #606060; 
+}
+
+.section-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
