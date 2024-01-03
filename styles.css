@@ -42,6 +42,12 @@ nav a {
     font-size: 16px;
 }
 
+nav a.active {
+    color: black; /* Dark green color for active link */
+    border-bottom: 2px solid black; /* Border color for active link */
+}
+
+
 .content-container {
     max-width: 100%;
     margin: 0 auto;
@@ -111,7 +117,127 @@ section {
 }
 
 #about {
-    background-color: #e0e0e0;
+    background-color: white;
+    padding-top: 100px; 
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+#about p {
+    text-indent: 40px;
+}
+
+.profile-image {
+    flex: 0 0 auto;
+    margin-right: 5px; 
+}
+
+.profile-image img {
+    width: 100%; 
+    max-width: 200px; 
+    border-radius: 50%; 
+}
+
+.about-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+#about .section-content h2 {
+    text-align: center;
+    font-size: 1.35em;
+    color: #008080;
+    margin-bottom: -30px;
+}
+
+#about .section-content .intro-text {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#about .section-content p {
+    color: #444;
+    font-size: 1.15em;
+}
+
+#about .additional-content {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 50%;
+    margin-left:28%;  
+    margin-top:30px;
+}
+
+#about .additional-content p {
+    text-indent: 0;
+    font-size: 1em; 
+}
+
+#about .profile-info{
+    margin-top: 40px;
+}
+
+#about .profile-info p {
+    margin: -2.5px 0;
+    color:#666;
+    font-weight: bold;
+}
+
+#about .profile-info strong {
+    color: #999; 
+}
+
+#about .info-group {
+    margin-bottom: 25px; 
+}
+
+.left-column,
+.right-column {
+    width: 48%; 
+}
+
+.left-column h3,
+.right-column h3 {
+    color: black;
+    margin-bottom: -10px;
+}
+
+#about .left-column a {
+    color: #FFA500; 
+    transition: color 0.3s ease;
+}
+#about .left-column a:hover {
+    color: gray; 
+}
+
+#about .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 5%;
+    padding:20px;
+}
+
+#about .about-buttons a {
+    margin-right: 100px;
+    padding: 20px 70px;
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#about .about-buttons a:hover {
+    background-color: #888;
 }
 
 #experience {
