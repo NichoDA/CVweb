@@ -43,8 +43,8 @@ nav a {
 }
 
 nav a.active {
-    color: black; 
-    border-bottom: 2px solid black; 
+    color: #008080; 
+    border-bottom: 2px solid #008080; 
 }
 
 
@@ -151,6 +151,7 @@ section {
     font-size: 1.2em;
     color: #008080;
     margin-bottom: -30px;
+    margin-top: -3%;
 }
 
 #about .section-content .intro-text {
@@ -251,6 +252,7 @@ section {
     text-align: center;
     font-size: 1.2em;
     margin-bottom: -30px;
+    margin-top: -3%;
 }
 
 #education-experience .section-content .intro-text {
@@ -259,7 +261,7 @@ section {
     font-weight: bold;
     color: white;
     margin-right: 15px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     margin-left: 20px;
 }
 
@@ -285,6 +287,7 @@ section {
     flex: 1;
     align-items: center;
     padding: 5px;
+    margin-bottom: 1%;
 }
 
 .timeline-credential{
@@ -292,7 +295,7 @@ section {
     color: #FFA500;
     flex: 3;
     display: flex;
-    margin-top: -20px;
+    margin-top: -2.5%;
     text-align: center;
     flex-direction: column;
 }
@@ -306,25 +309,54 @@ section {
     display: flex;
     text-align: left;
     margin-left: -20%;
-    border-left: #CCC;
+    border-left: 1px solid white;
+    padding-left: 35px;
 }
 
 .timeline-info h3 {
     color: white;
     margin-bottom: 15px;
-    margin-top: 0;
+    margin-top: -10.5%;
     height: 18px;
 }
 
 .timeline-info p {
     color: #CCC;
-    margin: 0;
+    margin-right: 15%;
+    margin-bottom: -1%;
+}
+
+.icon {
+    width: 60px; 
+    height: 60x; 
+    margin-left: -12.5%;
+    padding: 0;
+    margin-top: -3%;
 }
 
 
 #projects {
-    background-color: #a0a0a0; 
+    background-color: black; 
 }
+
+#projects h2 {
+    color: #008080;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: -30px;
+}
+
+#projects .section-content .intro-text {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    width: 100%;
+}
+
 
 #activities {
     background-color: #808080; 
