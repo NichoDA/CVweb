@@ -54,7 +54,6 @@ function scrollToAbout() {
 
     navLinks.forEach(link => link.classList.remove('active'));
     document.querySelector('nav a[href="#about"]').classList.add('active');
-
     header.style.backgroundColor = 'rgba(51, 51, 51, 0.8)';
 }
 

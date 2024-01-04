@@ -43,8 +43,8 @@ nav a {
 }
 
 nav a.active {
-    color: black; /* Dark green color for active link */
-    border-bottom: 2px solid black; /* Border color for active link */
+    color: black; 
+    border-bottom: 2px solid black; 
 }
 
 
@@ -148,7 +148,7 @@ section {
 
 #about .section-content h2 {
     text-align: center;
-    font-size: 1.35em;
+    font-size: 1.2em;
     color: #008080;
     margin-bottom: -30px;
 }
@@ -206,7 +206,6 @@ section {
 .left-column h3,
 .right-column h3 {
     color: black;
-    margin-bottom: -10px;
 }
 
 #about .left-column a {
@@ -238,11 +237,89 @@ section {
 
 #about .about-buttons a:hover {
     background-color: #888;
+    margin-top: 20px;
 }
 
-#experience {
-    background-color: #c0c0c0; 
+#education-experience {
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
 }
+
+#education-experience h2 {
+    color: #FFA500;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: -30px;
+}
+
+#education-experience .section-content .intro-text {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-right: 15px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+#education-experience .section-content .intro-text-head {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #FFA500;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.timeline-item {
+    display: flex;
+    margin-left: -35%;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    width: 200%;
+}
+
+.timeline-column {
+    flex: 1;
+    align-items: center;
+    padding: 5px;
+}
+
+.timeline-credential{
+    font-weight: bold;
+    color: #008080;
+    flex: 3;
+    display: flex;
+    margin-top: -20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.timeline-credential p {
+    margin-top: -10px;
+}
+
+.timeline-info {
+    flex: 3;
+    display: flex;
+    text-align: left;
+    margin-left: -10%;
+}
+
+.timeline-info h3 {
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 0;
+    height: 18px;
+}
+
+.timeline-info p {
+    color: #CCC;
+    margin: 0;
+}
+
 
 #projects {
     background-color: #a0a0a0; 
