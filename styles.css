@@ -117,7 +117,7 @@ section {
 }
 
 #about {
-    background-color: white;
+    background-color: #dcecf8;
     padding-top: 100px; 
 }
 
@@ -241,13 +241,13 @@ section {
 }
 
 #education-experience {
-    background-color: black;
+    background-color: #2c2d2c;
     text-align: center;
     padding-top: 100px;
 }
 
 #education-experience h2 {
-    color: #FFA500;
+    color: #008080;
     text-align: center;
     font-size: 1.2em;
     margin-bottom: -30px;
@@ -267,7 +267,7 @@ section {
     text-align: center;
     font-size: 1.7em;
     font-weight: bold;
-    color: #FFA500;
+    color: #008080;
     margin-right: 15px;
     margin-bottom: 20px;
     margin-left: 15px;
@@ -275,7 +275,7 @@ section {
 
 .timeline-item {
     display: flex;
-    margin-left: -35%;
+    margin-left: -53%;
     align-items: flex-start;
     margin-bottom: 30px;
     width: 200%;
@@ -289,7 +289,7 @@ section {
 
 .timeline-credential{
     font-weight: bold;
-    color: #008080;
+    color: #FFA500;
     flex: 3;
     display: flex;
     margin-top: -20px;
@@ -302,10 +302,11 @@ section {
 }
 
 .timeline-info {
-    flex: 3;
+    flex: 2;
     display: flex;
     text-align: left;
-    margin-left: -10%;
+    margin-left: -20%;
+    border-left: #CCC;
 }
 
 .timeline-info h3 {
