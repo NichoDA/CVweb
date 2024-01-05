@@ -74,6 +74,12 @@ function hoverArrow(isHovered) {
     }
 }
 
+const projectTitles = {
+    'PortEZ': 'PortEZ',
+    'FitHappens': 'FitHappens',
+    'PersonalWebsite': 'Personal Website',
+    'LSUTutoringApp': 'LSU Tutoring App'
+};
 
 const projectDetails = {
     'PortEZ': 'PortEZ is a user-friendly platform designed for computer science students to effortlessly create and showcase dynamic digital portfolios. Tailored features include color customization, pre-designed templates, and an advanced editor for a personalized touch. It aims to streamline the process of portfolio creation, allowing users to present academic and professional achievements uniquely.',
@@ -117,7 +123,7 @@ function showDetails(projectTitle) {
     var projectDetailsLink = document.getElementById('projectDetailsLink');
 
     // Set the title and display the container
-    detailTitle.textContent = projectTitle;
+    detailTitle.textContent = projectTitles[projectTitle];
     projectDescription.textContent = projectDetails[projectTitle];
     projectTechnologies.textContent = projectTech[projectTitle];
     projectImage.src = Image[projectTitle];
