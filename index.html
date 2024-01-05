@@ -176,25 +176,6 @@
                 <p class="intro-text">Have a look at projects I've worked on.</p>
         
                 <div class="project-container">
-                    <!-- Project 1 -->
-                    <div class="project" onclick="showDetails('PortEZ')">
-                        <img class = "project-image" src="images/PortEZ.png" alt="Project 1"></img>
-                        <div class="project-title">PortEZ</div>
-                        <div class="click-icon">
-                            <img src="images/click.png" alt="Click Icon"></img>
-                        </div>
-                    </div>
-        
-        
-                    <!-- Project 3 -->
-                    <div class="project" onclick="showDetails('PersonalWebsite')">
-                        <img class = "project-image" src="images/PersonalWeb.png" alt="Project 3"></img>
-                        <div class="project-title">Personal Website</div>
-                        <div class="click-icon">
-                            <img src="images/click.png" alt="Click Icon"></img>
-                        </div>
-                    </div>
-        
                     <!-- Project 4 -->
                     <div class="project" onclick="showDetails('LSUTutoringApp')">
                         <img class = "project-image" src="images/LSUTutoringApp.png" alt="Project 4"></img>
@@ -231,11 +212,44 @@
                 </div>
             </div>
         </section>
+
+        <section id="projects">
+            <div class="section-content">      
+                <div class="project-container">
+                    <!-- Project 1 -->
+                    <div class="project" onclick="showDetails('PortEZ')">
+                        <img class = "project-image" src="images/PortEZ.png" alt="Project 1"></img>
+                        <div class="project-title">PortEZ</div>
+                        <div class="click-icon">
+                            <img src="images/click.png" alt="Click Icon"></img>
+                        </div>
+                    </div>
         
-        <section id="activities">
-            <div class="section-content">
-                <h2>Activities</h2>
-                <p>Participation in clubs, organizations, or any extracurricular activities...</p>
+        
+                    <!-- Project 3 -->
+                    <div class="project" onclick="showDetails('PersonalWebsite')">
+                        <img class = "project-image" src="images/PersonalWeb.png" alt="Project 3"></img>
+                        <div class="project-title">Personal Website</div>
+                        <div class="click-icon">
+                            <img src="images/click.png" alt="Click Icon"></img>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="overlay" id="overlay"></div>
+        
+            <!-- Detailed Description Container -->
+            <div class="detail-container" id="detailContainer">
+                <div class="detail-content">
+                    <img class = "detail-image" id="projectImage" alt="Project Image">
+                    <h3 class="detail-title" id="detailTitle"></h3>
+                    <p class="project-description" id="projectDescription"></p>
+                    <p class="project-technologies" id="projectTechnologies"></p>
+                </div>
+                <div class="detail-footer">
+                    <a href="#" class="detail-btn" id="projectDetailsLink" target="_blank">Project Details</a>
+                    <span class="close-btn" onclick="closeDetails()">Close</span>
+                </div>
             </div>
         </section>
 
