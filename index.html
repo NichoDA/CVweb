@@ -7,7 +7,6 @@
     <title>Nicholas' Personal Website</title>
 </head>
 <body>
-
     <header>
         <nav>
             <ul>
@@ -175,8 +174,64 @@
             <div class="section-content">
                 <h2>Projects</h2>
                 <p class="intro-text">Have a look at projects I've worked on.</p>
+        
+                <div class="project-container">
+                    <!-- Project 1 -->
+                    <div class="project" onclick="showDetails('PortEZ')">
+                        <img src="images/dummy.jpg" alt="Project 1">
+                        <div class="project-title">PortEZ</div>
+                        <div class="click-icon">
+                            <img src="images/click.png" alt="Click Icon">
+                        </div>
+                    </div>
+        
+                    <!-- Project 2 -->
+                    <div class="project" onclick="showDetails('FitHappens')">
+                        <img src="images/dummy.jpg" alt="Project 2">
+                        <div class="project-title">FitHappens</div>
+                        <div class="click-icon">
+                            <img src="images/click.png" alt="Click Icon">
+                        </div>
+                    </div>
+        
+                    <!-- Project 3 -->
+                    <div class="project" onclick="showDetails('PersonalWebsite')">
+                        <img src="images/dummy.jpg" alt="Project 3">
+                        <div class="project-title">Personal Website</div>
+                        <div class="click-icon">
+                            <img src="images/click.png" alt="Click Icon">
+                        </div>
+                    </div>
+        
+                    <!-- Project 4 -->
+                    <div class="project" onclick="showDetails('LSUTutoringApp')">
+                        <img src="images/dummy.jpg" alt="Project 4">
+                        <div class="project-title">LSU Tutoring App</div>
+                        <div class="click-icon">
+                            <img src="images/click.png" alt="Click Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay" id="overlay"></div>
+        
+            <!-- Detailed Description Container -->
+            <div class="detail-container" id="detailContainer">
+                <div class="detail-content">
+                    <h3 class="detail-title" id="detailTitle"></h3>
+                    <p class="project-description" id="projectDescription"></p>
+                    <p class="project-technologies" id="projectTechnologies"></p>
+                </div>
+                <div class="detail-footer">
+                    <span class="detail-btn">Project Details</span>
+                    <span class="close-btn" onclick="closeDetails()">Close</span>
+                </div>
             </div>
         </section>
+        
+        
+        
 
         <section id="activities">
             <div class="section-content">
@@ -194,7 +249,8 @@
 
     </div>
 
-    <script src="smooth-scroll.js"></script>
+    <script src="app.js"></script>
+    <a target="_blank" href="https://www.flaticon.com/free-icons/hand" >Click</a> icon by <a target="_blank" href="www.flaticon.com">Pixel perfect - Flaticon</a>
     <a target="_blank" href="https://icons8.com/icon/111417/business">Work</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     <a target="_blank" href="https://icons8.com/icon/118634/note">Note</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 </body>

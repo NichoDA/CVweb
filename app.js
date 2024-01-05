@@ -12,12 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
             header.style.backgroundColor = `rgba(51, 51, 51, ${opacity})`;
             header.style.opacity = 1 - opacity;
 
-            if (scrollPosition > homeSectionOffset + (headerHeight / 5)) {
+            if (scrollPosition > homeSectionOffset + (headerHeight / 4)) {
                 header.style.opacity = 0;
             }
         } else {
             header.style.backgroundColor = 'rgba(51, 51, 51, 0.8)';
-            header.style.opacity = Math.min(1, (scrollPosition - (homeSectionOffset + headerHeight)) / (headerHeight / 5));
+            header.style.opacity = Math.min(1, (scrollPosition - (homeSectionOffset + headerHeight)) / (headerHeight/7));
         }
 
         document.querySelectorAll('section').forEach(section => {
@@ -65,3 +65,55 @@ function hoverArrow(isHovered) {
         arrowImg.src = 'images/downarrow.png';
     }
 }
+
+
+const projectDetails = {
+    'PortEZ': 'Project description for PortEZ.',
+    'FitHappens': 'Project description for FitHappens.',
+    'PersonalWebsite': 'Project description for Personal Website.',
+    'LSUTutoringApp': 'Project description for LSU Tutoring App.'
+};
+
+const projectTech = {
+    'PortEZ': 'Project technologies.',
+    'FitHappens': 'Project technologies.',
+    'PersonalWebsite': 'Project technologies.',
+    'LSUTutoringApp': 'Project technologies.'
+};
+
+//this function shows the project details when a project image is clicked
+function showDetails(projectTitle) {
+    // Get the detail container and title elements
+    var detailContainer = document.getElementById('detailContainer');
+    var detailTitle = document.getElementById('detailTitle');
+    var projectDescription = document.getElementById('projectDescription');
+    var projectTechnologies = document.getElementById('projectTechnologies');
+    var overlay = document.getElementById('overlay');
+
+    // Set the title and display the container
+    detailTitle.textContent = projectTitle;
+    projectDescription.textContent = projectDetails[projectTitle];
+    projectTechnologies.textContent = projectTech[projectTitle];
+    detailContainer.classList.add('active');
+    overlay.style.display = 'block';
+}
+
+// close the additional details function
+function closeDetails() {
+    // Logic to close the detail container
+    document.getElementById('detailContainer').classList.remove('active');
+    // Hide the overlay
+    document.getElementById('overlay').style.display = 'none';
+}
+
+// Click event listener for the gray overlay
+document.body.addEventListener('click', function (event) {
+    const detailContainer = document.getElementById('detailContainer');
+
+
+    // Check if the clicked element is the gray overlay
+    if (event.target.classList.contains('overlay') && detailContainer.classList.contains('active')) {
+        // Close the detail container and remove the overlay
+        closeDetails();
+    }
+});
