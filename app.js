@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 document.querySelector(`nav a[href="#${sectionId}"]`).classList.add('active');
             }
+            
         });
     }
     
@@ -44,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const sectionOffset = section.offsetTop;
             const sectionHeight = section.clientHeight;
 
-            if (scrollPosition >= sectionOffset && scrollPosition < sectionOffset + sectionHeight) {
+            if (scrollPosition >= sectionOffset && scrollPosition <= sectionOffset + sectionHeight+1) {
                 navLinks.forEach(link => link.classList.remove('active'));
 
                 document.querySelector(`nav a[href="#${sectionId}"]`).classList.add('active');
