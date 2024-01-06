@@ -99,7 +99,7 @@ const projectTech = {
 
 const Image = {
     'PortEZ': 'images/PortEZ1.png',
-    'FitHappens': 'images/FitHappens1.png',
+    'FitHappens': 'images/fithappenss.png',
     'PersonalWebsite': 'images/PersonalWeb1.png',
     'LSUTutoringApp': 'images/LSUTutoringApp1.png'
 };
