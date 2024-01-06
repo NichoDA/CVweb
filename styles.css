@@ -121,6 +121,7 @@ section {
 #about {
     background-color: #dcecf8;
     padding-top: 100px; 
+    margin-bottom: -1%;
 }
 
 .about-content {
@@ -140,6 +141,7 @@ section {
 .profile-image img {
     width: 100%; 
     max-width: 200px; 
+    border: 2.85px solid #008080;
     border-radius: 50%; 
 }
 
@@ -247,7 +249,7 @@ section {
     background-color: #2c2d2c;
     text-align: center;
     padding-top: 100px;
-    margin-bottom: -1%;
+    margin-bottom: -2%;
 }
 
 #education-experience h2 {
