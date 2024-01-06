@@ -45,9 +45,11 @@ document.addEventListener('DOMContentLoaded', function () {
             const sectionOffset = section.offsetTop;
             const sectionHeight = section.clientHeight;
 
-            if (scrollPosition >= sectionOffset && scrollPosition <= sectionOffset + sectionHeight+1) {
+            if (sectionId === 'contact' && scrollPosition >= sectionOffset - 390) {
                 navLinks.forEach(link => link.classList.remove('active'));
-
+                document.querySelector(`nav a[href="#${sectionId}"]`).classList.add('active');
+            } else if (scrollPosition >= sectionOffset && scrollPosition <= sectionOffset + sectionHeight + 1) {
+                navLinks.forEach(link => link.classList.remove('active'));
                 document.querySelector(`nav a[href="#${sectionId}"]`).classList.add('active');
             }
         });

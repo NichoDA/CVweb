@@ -339,7 +339,7 @@ section {
 
 
 #projects {
-    background-color: #4e54c8;
+    background: #4e54c8;   
 }
 
 #projects h2 {
@@ -369,6 +369,7 @@ section {
 
 .project {
     position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project img {
@@ -386,6 +387,7 @@ section {
     font-size: 1.05em;
     text-align: center;
     opacity: 0;
+    cursor: default;
     z-index: 2;
 }
 
@@ -404,6 +406,8 @@ section {
 
 .project:hover::after {
     content: "";
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -427,6 +431,7 @@ section {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 3;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .overlay {
@@ -449,6 +454,8 @@ section {
     display: block;
     width: 30%;
     height: auto;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .detail-footer {
@@ -542,10 +549,17 @@ section {
 }
 
 #hobbies .hobby-title {
-    color: #FFA500; 
-    text-align: center;
-    font-size: 1.5em; 
-    margin-bottom: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFA500;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#hobbies .hobby-icon {
+    width: 50px; 
+    margin-left: 3%; 
 }
 
 #hobbies .hobby-description,
@@ -558,7 +572,7 @@ section {
 }
 
 #contact {
-    background-color: #E5E5E5; 
+    background-color: #E5E5E5;
 }
 
 #contact h2 {
@@ -579,8 +593,56 @@ section {
     width: 100%;
 }
 
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-item img {
+    width: 50px;
+}
+
+.contact-item h2 {
+    margin: 5px 0;
+}
+
+.contact-item p {
+    margin-top:25%;
+}
+
+
+.contact-item a {
+    color: #FFA500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 .section-content {
     max-width: 600px;
     margin: 0 auto;
+}
+
+
+.footer {
+    background-color: #ccc2c2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #FFA500;
+    text-decoration: none;
+
+}
+
+.footer a:hover {
+    color: #FFD700;
 }
 
