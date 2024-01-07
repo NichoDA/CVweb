@@ -212,6 +212,10 @@
         margin-bottom: 25px; 
     }
 
+    .mobileul-right{
+        margin-top: -4%;
+    }
+
     .left-column,
     .right-column {
         width: 48%; 
