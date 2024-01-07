@@ -233,6 +233,20 @@
         text-align: center; 
     }
 
+    .left-column p,
+    .right-column p {
+        margin-right: 8%;
+    }
+
+    .right-column .mobileul-left{
+        margin-left: 10%;
+    }
+
+    .right-column .mobileul-right{
+        margin-left: 50%;
+        margin-top: -29.5%;
+    }
+
     #about .left-column a {
         color: #FFA500;
         transition: color 0.3s ease;
@@ -247,13 +261,19 @@
         justify-content: center;
         margin-top: 20px; 
         margin-bottom: 2%;
-        margin-left: 0; 
+        margin-left: 45px; 
         padding: 10px; 
     }
 
     #about .about-buttons a {
-        margin-right: 0; 
-        margin-bottom: 15px; 
-        padding: 15px 40px; 
+        margin-right: 45px;
+        padding: 10px 20px;
+        background-color: #FFA500;
+        color: white;
+        font-size: .8em;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
     }
 }
