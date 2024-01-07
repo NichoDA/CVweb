@@ -39,6 +39,7 @@
 
     nav li {
         margin-right: 15px; 
+        margin-bottom: -5px;
     }
 
     nav a {
@@ -72,7 +73,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        margin-top: 0; 
+        margin-top: -65px; 
     }
 
     .home-section {
@@ -84,7 +85,7 @@
     }
 
     .home-section h1 {
-        margin-top: 15%; 
+        margin-top: 20%; 
         font-size: 1.5em; 
         margin-bottom: 10px;
     }
@@ -124,5 +125,110 @@
 
     .scroll-down-arrow:hover #arrow-img {
         content: url('images/downhover.png');
+    }
+
+    #about {
+        background-color: #dcecf8;
+        padding-top: 30px;
+        margin-bottom: -1.5%; 
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -1%;
+    }
+
+    .profile-image {
+        margin-right: 0; 
+        margin-bottom: 15px; 
+    }
+
+    .profile-image img {
+        border: 2.85px solid #008080;
+    }
+
+    .about-text {
+        flex: 1;
+        max-width: 100%; 
+        margin-left: 0; 
+    }
+
+    #about .section-content h2 {
+        font-size: 1.5em; 
+        margin-bottom: -20px;
+        margin-top: -2%; /
+    }
+
+    #about .section-content .intro-text {
+        font-size: 1.8em; 
+        margin-right: 0; 
+        margin-bottom: 10px;
+    }
+
+    #about .section-content p {
+        font-size: 1em; 
+    }
+
+    #about .additional-content {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        max-width: 100%; 
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
+
+    #about .additional-content p {
+        font-size: 1em; 
+    }
+
+    #about .profile-info {
+        margin-top: 20px; 
+    }
+
+    #about .profile-info p {
+        margin: -2.5px 0;
+        font-weight: normal; 
+    }
+
+    #about .info-group {
+        margin-bottom: 20px; 
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%; 
+    }
+
+    .left-column h3,
+    .right-column h3 {
+        color: black;
+        text-align: center; 
+    }
+
+    #about .left-column a {
+        color: #FFA500;
+        transition: color 0.3s ease;
+    }
+    #about .left-column a:hover {
+        color: gray;
+    }
+
+    #about .button-container {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        margin-top: 20px; 
+        margin-bottom: 2%;
+        margin-left: 0; 
+        padding: 10px; 
+    }
+
+    #about .about-buttons a {
+        margin-right: 0; 
+        margin-bottom: 15px; 
+        padding: 15px 40px; 
     }
 }
