@@ -12,10 +12,6 @@
         padding: 0;
     }
 
-    .mobile-overflow{
-        overflow:hidden;
-    }
-
     header {
         color: white;
         padding: 10px 15px; 
@@ -56,6 +52,10 @@
     nav a.active {
         color: #008080;
         border-bottom: 2px solid #008080;
+    }
+
+    .mobile-overflow{
+        overflow-x:hidden;
     }
 
     .content-container {
