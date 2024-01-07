@@ -66,6 +66,7 @@
     .section-content {
         max-width: 200px;
         margin: 0 auto;
+        overflow:hidden;
     }
 
     #home {
