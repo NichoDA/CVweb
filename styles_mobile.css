@@ -67,6 +67,7 @@
         max-width: 200px;
         margin: 0 auto;
         overflow:hidden;
+        position:fixed;
     }
 
     #home {
