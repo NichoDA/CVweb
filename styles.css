@@ -150,8 +150,8 @@
     .profile-image img {
         width: 100%; 
         max-width: 200px; 
-        border: 2.85px solid #008080;
         border-radius: 50%; 
+        border: 2.85px solid #008080;
     }
 
     .about-text {
@@ -324,6 +324,27 @@
         margin-left: -70%;
     }
 
+    .wtimeline-credential{
+        font-weight: bold;
+        color: #FFA500;
+        flex: 3;
+        display: flex;
+        margin-left: -15%;
+        margin-top: -5%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .wtimeline-credential h3 {
+        margin-top: 7%;
+        margin-left: -70%;
+    }
+
+    .wtimeline-credential p {
+        margin-top: -8%;
+        margin-left: -70%;
+    }
+
     .timeline-info {
         flex: 2;
         display: flex;
@@ -345,7 +366,29 @@
         color: #CCC;
         margin-right: -30%;
         margin-bottom: -3%;
-    
+    }
+
+    .wtimeline-info {
+        flex: 2;
+        display: flex;
+        text-align: left;
+        margin-bottom: 5%;
+        margin-left: -23%;
+        border-left: 1px solid white;
+        padding-left: 35px;
+    }
+
+    .wtimeline-info h3 {
+        color: white;
+        margin-bottom: -2%;
+        margin-top: -20%;
+        height: 18px;
+    }
+
+    .wtimeline-info p {
+        color: #CCC;
+        margin-right: -30%;
+        margin-bottom: -3%;
     }
 
     .icon {
