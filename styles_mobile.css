@@ -140,6 +140,10 @@
         margin-bottom: -1%;
     }
 
+    #about p {
+        text-indent: 20px;
+    }
+
     .profile-image {
         margin-right: 0; 
         margin-bottom: 15px; 
@@ -147,23 +151,30 @@
 
     .profile-image img {
         border: 2.85px solid #008080;
+        width: 100%; 
+        max-width: 200px; 
+        border-radius: 50%; 
     }
 
     .about-text {
-        flex: 1;
-        max-width: 100%; 
+        width: 160%; 
         margin-left: 0; 
     }
 
     #about .section-content h2 {
-        font-size: 1.5em; 
-        margin-bottom: -20px;
-        margin-top: -2%; /
+        text-align: center;
+        font-size: 1.2em;
+        color: #008080;
+        margin-bottom: -15px;
+        margin-top: -4%;
     }
 
     #about .section-content .intro-text {
-        font-size: 1.8em; 
-        margin-right: 0; 
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: bold;
+        color: black;
+        margin-right: 15px;
         margin-bottom: 10px;
     }
 
@@ -181,16 +192,29 @@
     }
 
     #about .additional-content p {
+        margin-top: -3%;
         font-size: 1em; 
+        margin-left: 10%;
+        align-self: left;
+        max-width: 350px;
     }
 
     #about .profile-info {
-        margin-top: 20px; 
+        margin-top: 15px; 
+        margin-left: 35%;
+        margin-bottom: 15%;
     }
 
     #about .profile-info p {
-        margin: -2.5px 0;
-        font-weight: normal; 
+        margin-left: -8%;
+        margin-top: -1%;
+        margin-bottom: -4%;
+        font-weight: bold; 
+        color:#666;
+    }
+
+    #about .profile-info strong {
+        color: #999; 
     }
 
     #about .info-group {
@@ -200,6 +224,7 @@
     .left-column,
     .right-column {
         width: 100%; 
+        margin-top: -8%;
     }
 
     .left-column h3,
