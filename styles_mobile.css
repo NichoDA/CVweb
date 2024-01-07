@@ -456,35 +456,36 @@
         color: white;
         text-align: center;
         font-size: 1.2em;
-        margin-bottom: -30px;
-        margin-top: 6%;
+        margin-bottom: -15px;
+        margin-top: 15%;
     }
 
     #projects .section-content .intro-text {
         text-align: center;
-        font-size: 2em;
+        margin-left: -9%;
+        font-size: 1.3em;
         font-weight: bold;
         color: black;
-        margin-right: 15px;
-        margin-bottom: 40px;
-        margin-left: 20px;
-        width: 100%;
+        margin-bottom: 80px;
+        width: 250px;
     }
 
     .project-container {
-        display: flex;
+        display: block;
         justify-content: space-between;
-        gap: 10%;
+        margin-top: -28%;
     }
 
     .project {
         position: relative;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 10%;
     }
 
     .project img {
         width: 250px;
         display: block;
+        margin-left: -10%;
     }
 
     .project-title {
@@ -521,7 +522,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 250px;
+        margin-left: -10%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.75);
         z-index: 1;
@@ -536,7 +538,7 @@
         display: none;
         position: fixed;
         top: 50%;
-        left: 50%;
+        left: 35%;
         transform: translate(-50%, -50%);
         background-color: white;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -562,7 +564,7 @@
 
     .detail-container.active {
         display: block;
-        width: 30%;
+        width: 50%;
         height: auto;
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);
