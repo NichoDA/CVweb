@@ -12,6 +12,10 @@
         padding: 0;
     }
 
+    .mobile-overflow{
+        overflow:hidden;
+    }
+
     header {
         color: white;
         padding: 10px 15px; 
@@ -66,8 +70,6 @@
     .section-content {
         max-width: 200px;
         margin: 0 auto;
-        overflow:hidden;
-        position:fixed;
     }
 
     #home {
