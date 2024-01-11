@@ -462,6 +462,12 @@
         margin-top: 25%;
     }
 
+    #projects h3{
+        margin-bottom: 40%;
+        margin-top: -20%;
+        font-size: .8em;
+    }
+
     #projects .section-content .intro-text {
         text-align: center;
         margin-left: -25%;
