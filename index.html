@@ -3,11 +3,9 @@
 <head>
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
     <meta charset="UTF-8">
-    <link rel="stylesheet" media="screen and (min-width: 871px)" type="text/css" href="styles.css">
-    <link rel="stylesheet" media="screen and (min-width: 551px) and (max-width: 870px)" type="text/css" href="squicshed_window.css">
-    <link rel="stylesheet" media="screen and (min-width: 200px) and (max-width: 550px)" type="text/css" href="styles_mobile.css">
-    <link rel="stylesheet" media="screen and (min-device-width: 200px) and (max-device-width: 550px)" type="text/css" href="styles_mobile.css">
-    <title>Nicholas' Personal Website</title>
+    <link rel="stylesheet" media="screen and (min-device-width: 871px)" type="text/css" href="styles.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-width: 870px)" type="text/css" href="squicshed_window.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 200px) and (max-width: 550px)" type="text/css" href="styles_mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
@@ -162,8 +160,24 @@
                 <div class="timeline-item">
                     <div class="timeline-column wtimeline-credential">
                         <div class="info-content">
+                            <h3>IT Intern </h3>
+                            <p>July 2024 - Current</p>
+                        </div>
+                    </div>
+                    <div class="timeline-column wtimeline-info">
+                        <div class="info-content">
+                            <img src="images/work.png" alt="Work Icon" class="icon">
+                            <h3>Carpenter Health Network</h3>
+                            <p>As an IT Intern at The Carpenter Health Network, I contribute to the smooth operation of the organization's technology infrastructure by resolving IT support tickets, repairing and refurbishing hardware, and managing data related to hardware inventory. My role also involves supporting network tasks to ensure secure and reliable connectivity and assisting with the development and implementation of future software projects.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-column wtimeline-credential">
+                        <div class="info-content">
                             <h3>IT Technician </h3>
-                            <p>April 2022- May 2023</p>
+                            <p>April 2022 - May 2023</p>
                         </div>
                     </div>
                     <div class="timeline-column wtimeline-info">
@@ -265,6 +279,36 @@
             </div>
         </section>
 
+        <section id="projects">
+            <div class="section-content" style="display: flex; justify-content: center; align-items: center; text-align: center;">      
+                <div class="project-container">
+                    <!-- Project 5 -->
+                    <div class="project" onclick="showDetails('FrogWasher')">
+                        <img class = "project-image" src="images/FROGWASHER.png" alt="Project 5"></img>
+                        <div class="project-title">Frog Washer</div>
+                        <div class="click-icon">
+                            <img src="images/click.png" alt="Click Icon"></img>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="overlay" id="overlay"></div>
+        
+            <!-- Detailed Description Container -->
+            <div class="detail-container" id="detailContainer">
+                <div class="detail-content">
+                    <img class = "detail-image" id="projectImage" alt="Project Image">
+                    <h3 class="detail-title" id="detailTitle"></h3>
+                    <p class="project-description" id="projectDescription"></p>
+                    <p class="project-technologies" id="projectTechnologies"></p>
+                </div>
+                <div class="detail-footer">
+                    <a href="#" class="detail-btn" id="projectDetailsLink" target="_blank">Project Details</a>
+                    <span class="close-btn" onclick="closeDetails()">Close</span>
+                </div>
+            </div>
+        </section>
+        
         <section id="hobbies">
             <div class="section-content">
                 <h2>Hobbies</h2>

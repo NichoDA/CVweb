@@ -80,35 +80,40 @@ const projectTitles = {
     'PortEZ': 'PortEZ',
     'FitHappens': 'FitHappens',
     'PersonalWebsite': 'Personal Website',
-    'LSUTutoringApp': 'LSU Tutoring App'
+    'LSUTutoringApp': 'LSU Tutoring App',
+    'FrogWasher' : 'Frog Washer'
 };
 
 const projectDetails = {
     'PortEZ': 'PortEZ is a user-friendly platform designed for computer science students to effortlessly create and showcase dynamic digital portfolios. Tailored features include color customization, pre-designed templates, and an advanced editor for a personalized touch. It aims to streamline the process of portfolio creation, allowing users to present academic and professional achievements uniquely.',
     'FitHappens': 'FitHappens is a web application empowering users to craft and share personalized workout plans. It facilitates the creation and exploration of diverse fitness routines within a community-driven platform.',
     'PersonalWebsite': 'A personal website I created to showcase my resume, projects, and achievements. The site features a sleek design, providing a visually appealing and user-friendly experience.',
-    'LSUTutoringApp': 'A tutoring app for LSU students. Students are able to sign in with their school email and find tutors for specific subjects. Studetns can also rate tutors. Tutors have a different view than studetns, allowing them to see .'
+    'LSUTutoringApp': 'A tutoring app for LSU students. Students are able to sign in with their school email and find tutors for specific subjects. Studetns can also rate tutors. Tutors have a different view than studetns, allowing them to see .',
+    'FrogWasher': 'Frog Washer, a fun school game project. Explore levels and defeat evil frogs. For developing Frog Washer, I used Unity Engine.'
 };
 
 const projectTech = {
     'PortEZ': 'HTML, TypeScript, CSS, React, FIGMA, GitHub, Firebase',
     'FitHappens': 'HTML, CSS, JavaScript, React, C#, ASP.NET Core, GitHub, Firebase, Microsoft SQL',
     'PersonalWebsite': 'HTML, CSS, JavaScript, GitHub',
-    'LSUTutoringApp': 'JavaScript, React Native, FireBase, Node.js, Expo Go, GitHub'
+    'LSUTutoringApp': 'JavaScript, React Native, FireBase, Node.js, Expo Go, GitHub',
+    'FrogWasher' : 'Unity Engine, C#, GitHub'
 };
 
 const Image = {
     'PortEZ': 'images/PortEZ1.png',
     'FitHappens': 'images/Fithappens1.png',
     'PersonalWebsite': 'images/PersonalWeb1.png',
-    'LSUTutoringApp': 'images/LSUTutoringApp1.png'
+    'LSUTutoringApp': 'images/LSUTutoringApp1.png',
+    'FrogWasher': 'images/FROGdetail.png'
 };
 
 const moreDetails = {
     'PortEZ': 'https://docs.google.com/document/d/138zC68oINFe5LuMTqRzPflUO5PPgjLO9TVs0iQ68KMA/edit',
     'FitHappens': 'https://github.com/matterwin/csc3380',
     'PersonalWebsite': 'https://github.com/NichoDA/CVweb',
-    'LSUTutoringApp': 'https://github.com/Brythe40/CSC4330ProjectGroupC'
+    'LSUTutoringApp': 'https://github.com/Brythe40/CSC4330ProjectGroupC',
+    'FrogWasher': 'https://nichomode.itch.io/frog-washer1'
 };
 
 
